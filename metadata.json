@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4QYY3Z9PCF513E42PB3HMJ0",
+  "strategy": "manual-commit",
+  "branch": "tally/tally-run-20261012-114509Z--2-1-mv56qshn-1",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "src/money.js",
+    "test/money.test.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 17422,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 76032,
+    "output_tokens": 3238,
+    "api_call_count": 8,
+    "subagent_tokens_complete": true
+  }
+}

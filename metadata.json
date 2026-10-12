@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4RCCMXSXPS1W9PVH86JJDFT",
+  "strategy": "manual-commit",
+  "branch": "tally/tally-run-20261012-153937Z--6-1-mv5f4arm-1",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "src/ledger-filter.js",
+    "test/ledger-filter.test.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 25769,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 152832,
+    "output_tokens": 8358,
+    "api_call_count": 12,
+    "subagent_tokens_complete": true
+  }
+}

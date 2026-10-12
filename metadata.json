@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4RBE1XNV1FFNPSV1A6NY0RG",
+  "strategy": "manual-commit",
+  "branch": "tally/tally-run-20261012-152346Z--1-1-mv5ejxxp-1",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "src/math.js",
+    "test/math.test.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 11624,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 56832,
+    "output_tokens": 1808,
+    "api_call_count": 6,
+    "subagent_tokens_complete": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4QVRXS5WCTP6KJN57MDZK88",
+  "session_id": "01a12fbb-706f-7fc3-be76-15c656d7ef99",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-12T10:50:43.036567038Z",
+  "branch": "tally/tally-run-20261012-104924Z--6-1-mv54r2s3-1",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "src/ledger-filter.js",
+    "test/ledger-filter.test.js"
+  ],
+  "agent": "Codex",
+  "model": "gpt-5.6-luna",
+  "turn_id": "9b391fb6ef8d",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 39658,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 111360,
+    "output_tokens": 6464,
+    "api_call_count": 11,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-12T10:50:43.029511002Z",
+    "agent_lines": 104,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 104,
+    "total_lines_changed": 104,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}

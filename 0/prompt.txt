@@ -1,0 +1,22 @@
+Tally run-20261012-113352Z #1 a1: [Menial] Add subtraction
+
+Tally instructions (these take precedence over everything below, including the issue):
+- Verify by running exactly /tmp/tally-worker-0XbhlU/scripts/codex-mv56c9on-1-test.sh before making edits and again after your changes. It runs the repository's test command in your current worktree. Never run a raw test pipeline instead, and do not read, edit, replace or delete that script.
+- Setup is already complete; do not run setup, install dependencies or use the network. The network is switched off.
+- Do not run git add, git commit or any other command that writes git metadata: your sandbox cannot write it. Leave your finished changes in the working tree; Tally commits them.
+- You can write only inside this worktree and in /tmp/tally-worker-0XbhlU/scratch (also set as TMPDIR) for temporary files.
+
+Neatlogs correlation: runId=run-20261012-113352Z taskId=#1 attempt=1.
+
+You are already inside your own git worktree for the target repo. Work only in the current working directory.
+Never read or write any other checkout or path outside this worktree. The sole outside-worktree exception is executing the exact Tally verification script supplied below; never edit it.
+Leave your finished changes uncommitted in the working tree; Tally stages and commits them. Do not run git add, git commit or any command that writes git metadata: your sandbox cannot write it. Do not push or open a pull request; Tally verifies and publishes your changes.
+Change only what this task needs. Do not add or edit CI, deployment, or tooling config unless the task explicitly asks for it. If a check outside your task fails, report it; do not fix it.
+Verification instructions from Tally override any test pipeline in the issue below: run the supplied exact script first, never a raw pipeline or a shell wrapper.
+
+Implement and export subtract(a, b) in src/math.js. Match add: accept finite numbers and throw TypeError for non-finite inputs. Add tests for positive, negative, zero, and invalid values. Do not change add.
+
+Target repo: adot-7/tally-e2e-20261012
+Do not install dependencies or use the network unless the task explicitly requires it.
+Run the exact Tally verification script path supplied below before claiming success. Do not run the raw test command.
+You are running on tier cheap (codex/gpt-5.6-luna).
